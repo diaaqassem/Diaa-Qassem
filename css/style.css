@@ -1,0 +1,470 @@
+/* **************************contactme****************************** */
+.contact {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.contact body {
+  background-color: rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(
+    45deg,
+    rgb(224, 245, 255) 30%,
+    rgb(220, 220, 255) 60%,
+    orange 50%,
+    rgb(121, 121, 121) 50%,
+    white 50%
+  );
+}
+
+#about1 p:hover .contact body {
+  background-image: linear-gradient(
+    45deg,
+    rgb(243, 243, 243) 30%,
+    rgb(139, 212, 255) 60%,
+    rgb(107, 109, 255) 50%,
+    white 50%
+  );
+}
+
+.home {
+  width: 98%;
+  height: 13%;
+  background-color: transparent;
+
+  display: flex;
+
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.home img {
+  border: solid white 1px;
+  border-radius: 10%;
+  box-shadow: 2px 3px 5px wheat;
+  width: 100%;
+  height: 50%;
+  position: relative;
+  opacity: 0;
+  right: 33%;
+}
+
+.home2 {
+  width: 100% !important;
+  height: 90vh !important;
+
+  background-image: url(../Images/darker_converted_image_fixed.jpg);
+  background-size: 100% 100%;
+  text-align: center;
+}
+
+.home2 button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.home2 button {
+  padding: 10px 20px;
+
+  /* border:dashed white 3px; */
+  border-radius: 8px;
+  color: white;
+  background-color: transparent;
+  position: relative;
+
+  right: 0.9%;
+  font-weight: bolder;
+  transition: all 1s;
+}
+
+.home2 button:hover {
+  background-color: #0099ff;
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+.home2 h1::after {
+  content: "";
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: #ffffff;
+  animation: slider 10s linear infinite;
+  font-family: serif;
+  font-size: 3rem;
+  top: 13rem;
+}
+
+.profile {
+  text-align: justify; /* Use this for justified alignment */
+  width: 100%; /* Adjust the width of the content area */
+  margin: 0.5rem auto; /* Center the content */
+  /* background-color: #fff; */
+  padding: 0px 3px;
+  border-radius: 8px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+@keyframes slider {
+  /* الجملة الأولى: Diaa Qassem */
+  0% {
+    content: "D|";
+  }
+  2.5% {
+    content: "Di|";
+  }
+  5% {
+    content: "Dia|";
+  }
+  7.5% {
+    content: "Diaa|";
+  }
+  10% {
+    content: "Diaa Q|";
+  }
+  12.5% {
+    content: "Diaa Qa|";
+  }
+  15% {
+    content: "Diaa Qas|";
+  }
+  17.5% {
+    content: "Diaa Qass|";
+  }
+  20% {
+    content: "Diaa Qassem|";
+  }
+  22.5% {
+    content: "Diaa Qassem";
+  }
+  25% {
+    content: "";
+  }
+
+  /* الجملة الثانية: Backend Developer (Node.js) */
+  27.5% {
+    content: "B|";
+  }
+  30% {
+    content: "Ba|";
+  }
+  32.5% {
+    content: "Bac|";
+  }
+  35% {
+    content: "Back|";
+  }
+  37.5% {
+    content: "Backe|";
+  }
+  40% {
+    content: "Backen|";
+  }
+  42.5% {
+    content: "Backend|";
+  }
+  45% {
+    content: "Backend D|";
+  }
+  47.5% {
+    content: "Backend De|";
+  }
+  50% {
+    content: "Backend Dev|";
+  }
+  52.5% {
+    content: "Backend Developer|";
+  }
+  55% {
+    content: "Backend Developer |";
+  }
+  57.5% {
+    content: "Backend Developer N|";
+  }
+  60% {
+    content: "Backend Developer Node|";
+  }
+  62.5% {
+    content: "Backend Developer Node.js|";
+  }
+  65% {
+    content: "";
+  }
+
+  /* الجملة الثالثة: DevOps Practitioner */
+  67.5% {
+    content: "D|";
+  }
+  70% {
+    content: "De|";
+  }
+  72.5% {
+    content: "Dev|";
+  }
+  75% {
+    content: "DevO|";
+  }
+  77.5% {
+    content: "DevOp|";
+  }
+  80% {
+    content: "DevOps|";
+  }
+  82.5% {
+    content: "DevOps P|";
+  }
+  85% {
+    content: "DevOps Pr|";
+  }
+  87.5% {
+    content: "DevOps Pra|";
+  }
+  90% {
+    content: "DevOps Pract|";
+  }
+  92.5% {
+    content: "DevOps Practi|";
+  }
+  95% {
+    content: "DevOps Practit|";
+  }
+  97.5% {
+    content: "DevOps Practiti|";
+  }
+  100% {
+    content: "DevOps Practitioner|";
+  }
+}
+
+.dynamic-text::after {
+  display: inline-block;
+  animation: slider 30s infinite;
+  content: "";
+}
+
+
+#about1 a {
+  color: rgb(255, 255, 255);
+  height: 42px;
+  width: 42px;
+  padding: 8px;
+  font-size: 20px;
+  border-radius: 50%;
+  border: 2px solid #d4d4d4;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+#about a i {
+  color: white !important;
+}
+
+#about1 a:hover {
+  color: #e65f78;
+  border: 2px solid #e65f78;
+}
+
+#about1 p {
+  /* font-weight: bold; */
+  color: #ffffff !important;
+  font-size: large;
+}
+
+.photo {
+  overflow: hidden;
+  border: 4px solid var(--bs-border-color);
+  border-radius: 30px;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 5;
+}
+
+#about1 img {
+  width: 100%;
+  border-radius: 5%;
+  height: 80%;
+  transition: all 0.5s;
+  filter: brightness(70%);
+  border: none !important;
+}
+
+h5 {
+  padding: 1px;
+}
+
+.img-thumbnail {
+  border: none !important;
+}
+
+#about1 img:hover {
+  transform: scale(1.2);
+}
+
+.big2 {
+  background-color: rgb(134 144 185);
+  width: 0%;
+  height: 100%;
+
+  transition: all 5s;
+  z-index: 6;
+  opacity: 0;
+}
+
+.big21,
+.big22 {
+  background-color: rgb(134 144 185);
+  width: 0%;
+  height: 100%;
+
+  z-index: 6;
+  transition: all 5s;
+}
+
+.big23 {
+  background-color: rgb(134 144 185);
+  width: 0%;
+  height: 100%;
+  transition: all 5s;
+  z-index: 6;
+}
+
+#about1:hover .big23 {
+  width: 70%;
+}
+
+#about1:hover .big21 {
+  width: 90%;
+}
+
+#about1:hover .big22 {
+  width: 90%;
+}
+
+#about1:hover .big2 {
+  width: 90%;
+}
+
+.frame {
+  opacity: 0;
+  transition: all 3s;
+}
+
+#about1:hover .frame {
+  opacity: 1;
+}
+
+.skill {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+.scroll {
+  width: 1.7rem;
+  position: relative;
+  left: 47%;
+  top: 79%;
+}
+
+.gamd {
+  overflow-x: hidden;
+}
+
+.gamd1 {
+  overflow-x: hidden;
+  /* background-image: url(../Images/contact.jpg) !important; */
+  background-color: #000 !important;
+  background-repeat: no-repeat !important;
+  color: #d4d4d4 !important;
+  background-size: 100% 100% !important;
+  background: fixed;
+}
+
+
+.gamd1:hover #about1 {
+  overflow: inherit;
+  transform: translate(0, 0);
+}
+
+#about1 p {
+  opacity: 0;
+  /* font-family: Castellar; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    
+  /* font-family: "Roboto", Arial, sans-serif; */
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  transition: all 1s;
+}
+
+#about1:hover p {
+  opacity: 1;
+}
+
+iframe {
+  height: 77rem !important;
+
+  width: 100% !important;
+}
+
+.zrr button {
+  padding: 10px 20px;
+  /* border:dashed rgb(255, 239, 242) 3px; */
+  border-radius: 8px;
+
+  background-color: transparent;
+  margin-top: 3em;
+  font-weight: bolder;
+  color: #0099ff !important;
+  background-color: #000;
+  transition: all 1s;
+}
+
+.zrr button:hover {
+  background-color: #0099ff;
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+}
+
+h1 {
+  text-align: center;
+}
+
+.h1 {
+  font-size: 3rem;
+  margin: 0;
+  font-family: "Vast Shadow", cursive;
+  text-shadow: -2px 4px 1px #ffffff;
+  transition: all 0.4s;
+}
+
+.h1:hover {
+  letter-spacing: 0.5px;
+}
+
+span {
+  font-family: "Inter", sans-serif;
+  font-family: "Mynerve", cursive;
+  font-family: "Rubik", sans-serif;
+  font-family: "Sunshiney", cursive;
+  text-shadow: none;
+}
+
+p {
+  font-size: 1.2rem !important;
+}
