@@ -52,13 +52,13 @@
   width: 100% !important;
   height: 90vh !important;
 
-  background-image: url(../Images/darker_converted_image_fixed.jpg);
-  background-attachment: fixed;
+  background-image: url(../Images/darker_converted_image_fixed.jpg) no-repeat
+    center center fixed;
   background-size: 100% 100%;
   text-align: center;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) and (min-width: 50px) {
   .home2 {
     background: url(../Images//futuristic_backend_devops_cloud_darker.jpg)
       no-repeat center center fixed;
