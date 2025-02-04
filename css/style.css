@@ -57,7 +57,7 @@
   text-align: center;
 }
 
-@media only screen and (max-width: 800px) and (min-width: 0px) {
+@media (max-width: 800px) {
   .home2 {
     background: url(../Images//futuristic_backend_devops_cloud_darker.jpg)
       no-repeat center center fixed;
