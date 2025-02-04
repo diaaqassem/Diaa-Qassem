@@ -53,6 +53,7 @@
   height: 90vh !important;
 
   background-image: url(../Images/darker_converted_image_fixed.jpg);
+  background-attachment: fixed;
   background-size: 100% 100%;
   text-align: center;
 }
