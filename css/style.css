@@ -57,7 +57,7 @@
   text-align: center;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) and (min-width: 0px) {
   .home2 {
     background: url(../Images//futuristic_backend_devops_cloud_darker.jpg)
       no-repeat center center fixed;
@@ -308,7 +308,7 @@ h5 {
 }
 
 #about1 img:hover {
-  transform: scale(1.2);
+  transform: scale(1.005);
 }
 
 .big2 {
