@@ -57,7 +57,7 @@
   text-align: center;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
   .home2 {
     background: url(../Images//futuristic_backend_devops_cloud_darker.jpg)
       no-repeat center center fixed;
@@ -114,7 +114,6 @@
 }
 
 @keyframes slider {
-  /* الجملة الأولى: Diaa Qassem */
   0% {
     content: "D|";
   }
@@ -296,7 +295,7 @@
   border-radius: 5%;
   height: 80%;
   transition: all 0.5s;
-  filter: brightness(70%);
+  filter: brightness(68%);
   border: none !important;
 }
 
